@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', Georgia, sans-serif;
+    font-weight: 100;
+
+}
+
+.titulo-h2 {
+    color : #ff0000;
+}
+
+#element-for-modyfy{
+    color : rebeccapurple;
+}
+
+[rancio="sii"]{ 
+    color : grey;
+}
+
+h2 p {
+    color :royalblue
+}
+
+h2 p:hover{
+    color : green;
+}
+
+.contact-form__input--active{
+    color :blue
+}
+
+.contact-form2__p{
+    font-size: 60px;
+}
+
+.contact-form2__p-h2{
+    color: rgb(210, 30, 30);
+    font-family: 'Open Sans', Georgia, sans-serif;
+    font-size: 1em;
+}
+
+.propiedad{
+    background-color: cyan;
+    display:inline-block ;
+    padding: 10px 20px 10px 20px;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    /*padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;*/
+    border: 5px solid rgb(205, 206, 255);
+
+}
+
+.property{
+    background-color: cyan;
+    display:inline-block ;
+    padding: 10px 20px 10px 20px;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border:10px inset blue ;
+    box-shadow: 30px 10px 10px 0 #000;
+    text-shadow: 2px 10px 7px #000;
+    /*transform: rotate(45deg);*/
+}
+
+.caja1{
+    height: 100px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s;
+}
+
+.caja1:hover{
+    background: darkblue;
+    height: 300px;
+    width: 300px;
+}
